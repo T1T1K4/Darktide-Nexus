@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop</title>
+    <link rel="stylesheet" href="index.css">
+
+    <link rel="icon" href="img/logo.png" type="image/x-icon">>
+</head>
+
+<Scripts>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+    <script>
+        $(window).scroll(function() {
+            if ($(document).scrollTop() > 50) {
+                $('.nav').addClass('affix');
+                console.log("OK");
+            } else {
+                $('.nav').removeClass('affix');
+            }
+        });
+    </script>
+
+<body>
+    <header class="nav">
+        <a href="index.html">
+            <img class="img-logo"  src="img/logo.png" alt="">
+        </a>
+
+        <nav>
+            <a href="history.html" >History</a>
+            <a href="requisitos.html" >Requsitos</a>
+            <a href="shop.html" >Shop</a>
+            
+        </nav>
+
+        <a href="perfil.html">
+            <img class="img-logo"  src="img/perfil-shrek.jpg" alt="">
+        </a>    </header>
+
+    <div  class="tabela-min">
+        <h1>LOJAS</h1>
+    <table>
+        <tr class="titulos">
+            <th>Loja</th>
+            <th>Preço</th>
+            <th>Dlc</th>
+            <th>link</th>
+        </tr>
+
+        <tr>
+            <th>Steam</th>
+            <th>R$149,95</th>
+            <th>86,56</th>
+            <th><a href="https://store.steampowered.com/app/1361210/Warhammer_40000_Darktide/">Steam</a></th>
+        </tr>
+
+        <tr>
+            <th>Xbox</th>
+            <th>R$169,95</th>
+            <th>89.95</th>
+            <th><a href="https://www.xbox.com/pt-BR/games/warhammer-40000-darktide">Xbox</a></th>
+        </tr>
+
+        <tr></tr>
+            <th>Nuuvem</th>
+            <th>R$149,95</th>
+            <th>Não possui</th>
+            <th><a href="https://www.nuuvem.com/br-en/item/warhammer-40-000-darktide">Nuuvem</a></th>
+        </tr>
+    </table>
+    </div>
+    <H2>
+        Se você curte jogos cooperativos com combates intensos, Warhammer 40,000: Darktide é uma experiência imperdível. Ambientado no universo sombrio e brutal de Warhammer, o game mistura ação visceral com estratégia em equipe. Enfrente hordas de inimigos com armas poderosas e habilidades únicas, enquanto você e seu esquadrão lutam para sobreviver e cumprir missões desafiadoras. O visual imersivo e o ritmo acelerado garantem adrenalina a cada partida. Se você gosta de desafios e trabalho em equipe, Darktide é a escolha perfeita!
+    </H2>
+    <div id="img-game">
+        <img src="img/imgShop.jpg" alt="">
+        <img src="img/imgShop2.jpg" alt="">
+    </div>
+    <h1>TREILER</h1>
+    <iframe class="video" 
+                src="https://www.youtube.com/embed/oMUfKLLynWI">
+</iframe> 
+
+
+<footer>
+    <div class="rodas_div">
+            <h1>text</h1>
+    </div>
+
+    <div class="rodas_div">
+        <a href="index.html">home</a>
+        <a href="history.html">History</a>
+        <a href="requisitos.css">requisitos</a>
+        <a href="">profile</a>
+    </div>
+
+    <div class="rodas_div">
+        <a href="">facebook</a>
+        <a href="">linkedin</a>
+        <a href="">instagram</a>
+    </div>
+
+    <div class="rodas_div">
+        <a href="">youtube</a>
+        <a href="">twitch</a>
+    </div>
+
+
+</footer>
+
+</body>
+</html>

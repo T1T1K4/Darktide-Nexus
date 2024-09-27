@@ -1,0 +1,64 @@
+@font-face {
+    font-family: "caslon-antique" ;
+    src: url("font/CaslonAntique-Bold.ttf");
+}
+
+*{
+    padding: 0;
+    margin: 0;
+
+}
+.img-logo{
+    width: 50px;
+    border-radius: 50%;
+}
+
+h1{
+    text-align: center;
+}
+
+#tabCadastro{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+} 
+
+
+body{ 
+    background-color:#000000; 
+} 
+ 
+#form-user{ 
+    background: white; 
+    width: 40%; 
+    padding: 50px; 
+    margin: 0% auto; 
+} 
+ 
+#form-user button{ 
+    margin-top: 30px; 
+    background-color: #6aa2d4; 
+    border: 1px solid #6aa2d4; 
+    border-radius: 5px; 
+    width: 50%; 
+    height: 50%; 
+    color: white; 
+    font-weight: bold; 
+    font-size: 15px; 
+} 
+ 
+.input-error{ 
+    color: red; 
+    font-style: italic ; 
+    display: none; 
+} 
+ 
+#form-user input{ 
+    width: 90%; 
+    height: 50px; 
+    border-radius: 3px; 
+}
+
+h1{
+    color: white;
+}

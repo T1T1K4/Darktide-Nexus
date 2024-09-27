@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Warhammer</title>
+    <link rel="stylesheet" href="index.css">
+
+    <link rel="icon" href="img/logo.png" type="image/x-icon">
+</head>
+
+<Scripts>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="script.js"></script>
+<script>
+    $(window).scroll(function() {
+        if ($(document).scrollTop() > 50) {
+            $('.nav').addClass('affix');
+            console.log("OK");
+        } else {
+            $('.nav').removeClass('affix');
+        }
+    });
+</script>
+
+<body>
+    <header class="nav">
+        <a href="index.html">
+            <img class="img-logo"  src="img/logo.png" alt="">
+        </a>
+
+        <nav>
+            <a href="history.html" >History</a>
+            <a href="requisitos.html" >Requsitos</a>
+            <a href="shop.html" >Shop</a>
+            
+        </nav>
+
+        <a href="perfil.html">
+            <img class="img-logo"  src="img/perfil-shrek.jpg" alt="">
+        </a>
+    </header>
+    <section class="Home">
+
+        <div class="home-img">
+            <img src="img/imgWar.jpg" alt="" >
+        </div>
+
+        <div class="home-content">
+
+            <h1>GAMEPLAY</h1>
+
+            <h2>Uma partida de Warhammer 40K: Darktide começa com você e seu time entrando em um ambiente hostil, prontos para enfrentar hordas de inimigos do Caos. A atmosfera é tensa, com ruínas industriais, corredores estreitos e espaços abertos cheios de perigos. Logo nos primeiros momentos, o combate começa, e a ação se intensifica rapidamente.
+
+                O ritmo é frenético, com você alternando entre tiroteios à distância e combate corpo a corpo. À medida que os inimigos se aproximam, a coordenação com seu time se torna essencial. Cada jogador escolhe uma classe que contribui de forma única: alguns se especializam em eliminar alvos de longe, enquanto outros são mais eficazes no combate de curta distância ou oferecem suporte ao grupo. O uso de habilidades especiais e armas poderosas pode virar o jogo a favor da equipe em momentos críticos.</h2>
+
+            <div id="img-game">
+                <img src="img/wargame.png" alt="">
+                <img src="img/wargame2.png" alt="">
+            </div>
+
+            <iframe class="video" 
+                src="https://www.youtube.com/embed/tGduf2X4hK0">
+            </iframe> 
+
+            <h2>As missões são variadas, com objetivos que vão desde eliminar um alvo específico até sobreviver a ondas de inimigos. Durante a partida, você enfrenta diferentes tipos de adversários, desde simples soldados mutantes até criaturas monstruosas e chefes poderosos, que exigem uma estratégia coordenada do time para serem derrotados. O ambiente ao redor é dinâmico, forçando os jogadores a se adaptarem, usando coberturas ou encontrando rotas alternativas para evitar armadilhas.</h2>
+        </div>
+    </section>
+
+    <footer>
+        <div class="rodas_div"> 
+                <h1>text</h1>
+        </div>
+    
+        <div class="rodas_div">
+            <a href="index.html">home</a>
+            <a href="history.html">History</a>
+            <a href="requisitos.css">requisitos</a>
+            <a href="">profile</a>
+        </div>
+    
+        <div class="rodas_div">
+            <a href="">facebook</a>
+            <a href="">linkedin</a>
+            <a href="">instagram</a>
+        </div>
+    
+        <div class="rodas_div">
+            <a href="">youtube</a>
+            <a href="">twitch</a>
+        </div>
+    
+    
+    </footer>
+</body>
+</html>
