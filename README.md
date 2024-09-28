@@ -1,4 +1,6 @@
-TRABALHO VALDIR
+# TRABALHO VALDIR
+
+## Site que diz algumas informações do jogo WARHAMMER 40K: DARKTIDE mostrado a historia requisitos minimos para jogar e a area onde possui links e preço do jogo e dlc 
 
 Oque usei:
 .HTML
