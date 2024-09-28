@@ -1,25 +1,25 @@
 # Page de WARHAMMER 40K: DARKTIDE - PROJETO DE INICIANTE 🧐
 
-### Opa sou Carlos Mello e vejo aprensentar esse projeto sobre uma page de um jogo q estou jogando muito ultimamente o Warhammer 40k: Darktide, fiz ele como uma trabalho academico na diciplina de DESENVOLVIMENTO WEB na UNIMAR. O grande foco é criar uma pagina responsiva e interativa usando oque aprendemos em aula.
+### Olá, sou Carlos Mello e venho apresentar este projeto sobre uma página de um jogo que estou jogando muito ultimamente, o Warhammer 40k: Darktide. Fiz esse projeto como um trabalho acadêmico na disciplina de Desenvolvimento Web da UNIMAR. O grande foco é criar uma página responsiva e interativa, utilizando o que aprendemos em aula.
 
 ## Oque usei:
-- HTML: Estrutura do codigo
-- CSS: Estilização da pagína
-- JS: Fazer algumas interações como animação e registro
+- HTML: Estrutura do código
+- CSS: Estilização da página
+- JS: Fazer algumas interações, como animação e registro.
 - ferramenta complentar:
-  -  figma para ter uma noção doque fazer.
+  -  Figma para ter uma noção do que fazer.
 
 ## Obejetivo
-Testar oque aprendemos durante as aulas e que vimos alem na disciplina de Desenvilvimento Web, criando uma pagina com nossos conhecimentos.
+Testar o que aprendemos durante as aulas e o que vimos além na disciplina de Desenvolvimento Web, criando uma página com nossos conhecimentos.
 ### Desafios encontrados
   - Criatividade na crição.
   - Dificuldades com erros encontrados no caminho.
   - Entendimento de JavaScript
-  - Junção entre HTML, CSS e JS
+  - Junção entre HTML, CSS e JavaScript
 
 ## Conclusao 
 
-Vejo que esse projeto me ajudou muito com minhas confianças para codar e assim me ajudando mais no entendimento na crianção de codigos e na dedicação de fazer algo que nos agrade, ajudou a entender mais sobre as tecnologias utilizadas com HTML, CSS e JS.
+Vejo que este projeto me ajudou muito com minha confiança para codar, assim contribuindo para o meu entendimento na criação de códigos e na dedicação de fazer algo que me agrade. Também ajudou a entender mais sobre as tecnologias utilizadas, como HTML, CSS e JavaScript.
 
 imagens:
 ![image](https://github.com/user-attachments/assets/09d116e0-69e3-482b-adfa-48da5d80f5f1)
